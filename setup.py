@@ -41,10 +41,10 @@ if sys.argv[-1] == 'publish':
 packages = ['requests']
 
 requires = [
-    'chardet>=3.0.2,<5',
-    'idna>=2.5,<3',
-    'urllib3>=1.21.1,<1.27',
-    'certifi>=2017.4.17'
+    'chardet @ git+https://github.com/ectoglasses/chardet.git#egg=chardnet',
+    'idna @ git+https://github.com/ectoglasses/idna.git#egg=idna`',
+    'urllib3 @ git+https://github.com/ectoglasses/urllib3.git#egg=flask',
+    'certifi @ git+https://github.com/ectoglasses/python-certifi.git#egg=certifi'
 
 ]
 test_requirements = [
