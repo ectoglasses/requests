@@ -41,7 +41,7 @@ if sys.argv[-1] == 'publish':
 packages = ['requests']
 
 requires = [
-    'chardet @ git+https://github.com/ectoglasses/chardet.git#egg=chardnet',
+    'chardet @ git+https://github.com/ectoglasses/chardet.git#egg=chardet',
     'idna @ git+https://github.com/ectoglasses/idna.git#egg=idna',
     'urllib3 @ git+https://github.com/ectoglasses/urllib3.git#egg=urllib3',
     'certifi @ git+https://github.com/ectoglasses/python-certifi.git#egg=certifi'
